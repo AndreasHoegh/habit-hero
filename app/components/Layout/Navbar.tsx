@@ -12,7 +12,7 @@ interface NavbarProps {
 
 const Navbar = ({ user, onLogout }: NavbarProps) => (
   <nav className="bg-teal-600 text-white shadow-md">
-    <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+    <div className="max-w-[1920px] mx-auto px-4 md:px-8 lg:px-16 py-3 flex items-center justify-between">
       <Link
         href="/"
         className="text-2xl font-bold hover:text-teal-100 transition-colors"
